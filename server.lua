@@ -19,7 +19,8 @@ local testKit = ox_inventory:registerHook('swapItems', function(payload)
                 break end
             end
         end
-        return ox_inventory:AddItem(src, 'usednikkit', 1, {description = testresult})
+	ox_inventory:AddItem(src, 'usednikkit', 1, {description = testresult})
+	return false
     end
 end,{
 	itemFilter = {
