@@ -1,4 +1,4 @@
-# shark-methlab
+# shark-nikkit
 A simple script that let's you test items for narcotics. Simply drag the NIK Kit onto the suspected item, then get your result.
 
 Customizable for whichever drugs you want, names, etc.
