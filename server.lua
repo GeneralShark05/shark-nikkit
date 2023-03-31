@@ -23,6 +23,7 @@ local testKit = ox_inventory:registerHook('swapItems', function(payload)
 	return false
     end
 end,{
+	print = true,
 	itemFilter = {
 	nikkit = true
 	}
