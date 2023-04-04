@@ -6,7 +6,7 @@ local testKit = ox_inventory:registerHook('swapItems', function(payload)
     local src = payload.source
     local testresult = 'Negative'
 
-    if  payload.toSlot ~= nil and payload.toSlot.name ~= 'nikkit' then
+    if  payload.toSlot ~= nil and payload.toSlot.name ~= 'nikkit' and payload.fromInventory == payload.source then
 		local drug = payload.toSlot.name
 		TriggerClientEvent('ox_inventory:closeInventory', src)
 		TriggerClientEvent('shark-nikkit-TestKit', src)
