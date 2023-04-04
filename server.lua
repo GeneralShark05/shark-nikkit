@@ -27,7 +27,4 @@ end,{
 	itemFilter = {
 	nikkit = true
 	}
-	typeFilter = {
-	'Player' = true,
-	}
 })
