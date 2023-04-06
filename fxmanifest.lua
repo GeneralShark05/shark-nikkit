@@ -7,7 +7,7 @@ author 'General Shark'
 description 'Test drugs to find out what they are!'
 version '1.1'
 
-dependencies { 'ox_lib', 'ox_target', 'ox_inventory'}
+dependencies { 'ox_lib', 'ox_inventory'}
 
 shared_scripts {'@ox_lib/init.lua','config.lua'}
 
