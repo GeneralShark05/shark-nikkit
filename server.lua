@@ -1,5 +1,4 @@
 local ox_inventory = exports.ox_inventory
-ESX = exports.es_extended:getSharedObject()
 
 --------- NIK Kit
 local testKit = ox_inventory:registerHook('swapItems', function(payload)
