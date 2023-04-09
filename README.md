@@ -22,3 +22,5 @@ Add the following to your data/items.lua in ox_inventory
 		stack = true,
 		close = true
 	},
+	
+[Support - Discord](https://discord.gg/mFnNTV2Zce)
